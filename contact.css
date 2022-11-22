@@ -1,0 +1,919 @@
+/* Contact-Section */
+
+
+
+
+.Background-Image{
+    height: 75vh;
+    width: 100%;
+    background-image: url("../Images/Contact.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 40px;
+    margin-bottom: 100px;
+}
+.Background-Image h1{
+    color: white;
+    font-size: 100px;
+    
+}
+
+
+/* About us Section */
+
+
+.Company-name-1{
+   
+    text-align: center;
+    height: 8vh;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.Company-name-2{
+   
+    text-align: center;
+    height: 7vh;
+    width: 100%;
+}
+.Company-name-1 h1{
+    text-shadow: 1px 1px 2px blue;
+}
+
+.Company-name-2 h1{
+    text-shadow: 1px 1px 2px blue;
+}
+
+
+.Facts{
+    background-color: skyblue;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+}
+.Facts-line{
+    background-color: aqua;
+    
+}
+
+
+.Clients-Info{
+    text-align: center;
+    margin: 0px 0px;
+    padding: 10px;
+    background-color: white;
+}
+
+.Clients-Info h1{
+    text-align: center;
+    margin: 34px 0px 5px 0px;
+    
+}
+
+.Companies{
+    display: flex;
+    margin: 75px 0px;
+}
+
+
+
+/* Support Under */
+
+.Support-Big{
+    display: flex;
+    padding: 4% 7%;
+    background-image: linear-gradient( 177.8deg,  rgba(255,128,0,1) 9.2%, rgba(232,211,59,1) 86.8% );
+}
+
+.Support-Big .Support-Under-1 .class-mess{
+    display: flex;
+    margin-top: 20px;
+}
+.Support-Big .Support-Under-1 .class-mess a{
+    color: white;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+.Support-Big .Support-Under-1 .class-mess a :hover{
+    color: rgb(165, 161, 161);
+}
+
+.Support-Big .Support-Under-2{
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-left: 10%;
+    padding: 50px;
+}
+
+
+@media screen and (max-width: 1150px) {
+ 
+     .Background-Image{
+        height: 100%;
+        width: 100%;
+        background-image: url("../Images/Contact.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 50px 40px;
+        margin-bottom: 100px;
+    }
+    .Background-Image h1{
+        color: white;
+        font-size: 75px;
+        
+    }
+     
+}
+
+@media screen and (max-width: 800px) {
+
+
+     .Background-Image{
+        height: 80%;
+        width: 100%;
+        background-image: url("../Images/Contact.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 50px 40px;
+        margin-bottom: 100px;
+    }
+    .Background-Image h1{
+        color: white;
+        font-size: 68px;
+        
+    }
+
+    .Support-Big{
+        display: block;
+     }
+     .Support-Big .Support-Under-1{
+         width: 100%;
+         
+     }
+     .Support-Big .Support-Under-2{
+         width: 100%;
+         margin-left: 0%;
+         margin-top: 5%;
+     }
+
+
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(-100deg, rgb(255, 123, 16) 50%, #ffc400 50%);
+    height: 70vh;
+
+}
+
+
+
+.carousel-item img {
+    height: 400px;
+
+}
+
+.container {
+    margin: 7%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+
+.img-text {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+}
+
+.img-text a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.img-text h2 {
+    font-size: 30px;
+    margin-top: 250px;
+
+}
+
+.img-text p {
+    font-size: 14px;
+}
+
+.single-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.img-area {
+    position: absolute;
+    width: 363px;
+    height: 230px;
+    border: 5px solid #fff;
+    overflow: hidden;
+    top: 15px;
+    left: 27px;
+    right: 27px;
+
+
+}
+
+
+.carousel .carousel-inner .carousel-item img {
+    height: 633px;
+}
+
+/* DCS detailed section */
+
+.text-middle {
+
+    padding: 2% 5%;
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.text-middle .left-side {
+    margin-top: 20px;
+    margin-left: -300px;
+    margin: 54px 20px 20px 20px;
+    width: 42%;
+}
+
+.text-middle .right-side {
+    width: 50%;
+
+}
+
+.text-middle .right-side img {
+    height: auto;
+    width: 100%;
+
+}
+
+
+.Team-member {
+    border-top-left-radius: 35% 120%;
+    border-bottom-right-radius: 35% 120%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(28, 28, 109);
+    padding: 50px 130px;
+    height: 400px;
+    margin: 30px 0px;
+    width: 100%;
+}
+
+.Team-member .numbers {
+    width: 22%;
+}
+.Team-member .numbers h1{
+   font-size: 80px;
+}
+
+
+.Team-member:hover {
+    box-shadow: 0 0 10px blue;
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transition: 0.6s;
+}
+
+
+
+.courses .courses-name {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* margin: 51px 0px; */
+    padding: 2% 5%;
+
+}
+
+.courses .courses-name .name {
+    padding: 10px;
+    height: 548px;
+    width: 30%;
+
+    background-color: white;
+}
+
+.courses .courses-name .name img {
+    height: 50%;
+    width: 100%;
+
+}
+
+.courses .courses-name .name:hover {
+    box-shadow: 0 0 15px blue;
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.5s;
+
+}
+
+.courses .courses-name .name h5 {
+    margin: 20px 0px;
+
+}
+
+.courses .courses-name .name p {
+
+    color: rgb(128, 124, 124);
+
+}
+
+.courses .courses-name .name .line {
+
+    margin: 5% 0%;
+
+}
+
+.courses .courses-name .name .information {
+    display: flex;
+}
+
+.courses .courses-name .name ::before {
+    border: 1px solid;
+    width: 0px;
+    margin: 11px -10px;
+}
+
+.courses .courses-name .name .left {
+    border: 1px solid;
+    margin: 11px -10px;
+
+
+}
+
+
+.Company-Colab {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.colab-text {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.Company-Colab img {
+
+    height: 125px;
+    width: 200px;
+
+}
+
+.Form-Idea-1 {
+    height: 91%;
+    width: 48%;
+    left: 26%;
+    position: absolute;
+    background-color: rgb(26, 63, 226);
+}
+
+.Form-Idea-2 {
+    height: 87%;
+    width: 50%;
+    left: 25%;
+    margin-top: 1%;
+    position: absolute;
+    background-color: rgb(50, 59, 180);
+}
+
+.Form-Idea-3 {
+    height: 83%;
+    width: 52%;
+    left: 23%;
+    margin: 2% 1%;
+    position: absolute;
+    padding: 2% 3%;
+    background-color: rgb(122, 146, 224);
+    z-index: 1;
+}
+
+
+.Students-details {
+    transition: 0.2s;
+
+
+    height: 800px;
+    width: 95%;
+    margin: 37px;
+    padding-top: 50px;
+    /* margin: 20px; */
+    text-align: center;
+    color: rgb(28, 28, 109);
+    border-radius: 70%;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: 0.9;
+
+}
+
+.Students-details:hover {
+    box-shadow: 0 0 10px blue;
+    -ms-transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
+
+.Students-details h1 {
+    text-shadow: 1px 1px 2px blue;
+}
+
+.Working-class {
+    display: flex;
+    margin: 20px;
+}
+
+.Teacher-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+
+.Footer {
+    margin-top: 100px;
+    padding: 2% 5%;
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    color: rgb(128, 124, 124);
+    display: flex;
+}
+
+.Footer img {
+    height: 150px;
+    width: 300px;
+}
+
+.Footer-side-1 a {
+    color: white;
+    font-size: 10px;
+
+
+}
+
+.Footer-side-1 {
+    width: 50%;
+    margin-left: -2%;
+
+
+}
+
+.Footer-side-1 a:hover {
+    color: rgb(228, 220, 220);
+    transition: 0.5s;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    
+
+}
+
+.footer-links {
+    display: flex;
+   width:  50%;
+}
+
+.Footer-side {
+    margin: 50px;
+    /* margin-left: 200px; */
+    width: 50%;
+}
+
+.Footer-side a {
+
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.Footer-side a:hover {
+    color: grey;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.Quick-links-2-4 a {
+    margin-top: 20px;
+    display: block;
+
+}
+
+.Quick-links-3 {
+    margin-top: 20px;
+}
+
+.Quick-links-3 .social-a a {
+    margin: -5px 10px 26px 10px;
+    display: block;
+
+}
+
+
+/* About us */
+
+.Csed-Pillars {
+    text-align: center;
+
+    position: relative;
+    width: 100%;
+    height: 857px;
+    padding-top: 20px;
+}
+
+.Csed-Pillars video {
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.Whole-Pillars {
+    display: flex;
+    margin: 140px 10px 10px 10px;
+
+    justify-content: space-around;
+}
+
+.Whole-Pillars .Profile {
+    height: 650px;
+    width: 350px;
+    z-index: 1;
+    text-align: center;
+
+}
+
+.Whole-Pillars .Profile img {
+    height: 400px;
+    width: 350px;
+}
+
+
+
+.Csed-Team {
+    background-image: linear-gradient(to right top, #f0dce8, #d4b4ce, #b38fb8, #8e6da4, #634e93, #515098, #38519b, #00539e, #006fb0, #0089b7, #00a2b4, #12b8ad);
+    margin-top: 20px;
+    width: 100%;
+    padding-top: 18px;
+
+    text-align: center;
+
+
+
+}
+
+.video-container {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 0;
+}
+
+
+.Whole-Team {
+    display: flex;
+    margin: 40px;
+    z-index: 1;
+    justify-content: space-around;
+    opacity: 1;
+}
+
+.Whole-Team .Profile-Team {
+    height: 650px;
+    width: 350px;
+    text-align: center;
+
+}
+
+.Csed-Team .Whole-Team .Profile-Team img {
+    height: 400px;
+    width: 375px;
+}
+
+
+.Clients-Info {
+    background-image: linear-gradient(177.8deg, rgba(255, 128, 0, 1) 9.2%, rgba(232, 211, 59, 1) 86.8%);
+
+}
+
+.Clients-Info .Company-deco {
+    background-color: #d4b4ce;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Support-Big{
+    width: 100%;
+    padding: 2% 5%;
+}
+.Support-Big .Support-Under-1{
+    width: 40%;
+    
+}
+.Support-Big .Support-Under-2{
+    width: 60%;
+    
+}
+
+
+/* Responsive-design */
+
+
+@media screen and (max-width: 1300px) {
+    .courses .courses-name {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        /* margin: 51px 0px; */
+        padding: 2% 4%;
+
+    }
+
+    .courses .courses-name .name {
+        padding: 10px;
+        height: 548px;
+        width: 30%;
+
+        background-color: white;
+    }
+
+    .courses .courses-name .name img {
+        height: 50%;
+        width: 100%;
+
+    }
+
+    .courses .courses-name .name h5 {
+        margin: 4% 0%;
+
+    }
+
+    .courses .courses-name .name p {
+
+        color: rgb(128, 124, 124);
+
+    }
+
+    .courses .courses-name .name .line {
+
+        margin: 3% 0%;
+
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .carousel .carousel-inner .carousel-item img {
+        height: 620px;
+    }
+
+    .courses .courses-name {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        /* margin: 51px 0px; */
+        padding: 2% 3%;
+
+    }
+
+    .courses .courses-name .name {
+        padding: 10px;
+        height: 548px;
+        width: 33%;
+
+        background-color: white;
+    }
+
+    .Team-member {
+        height: 60%;
+    }
+
+    .Team-member .numbers h1{
+        font-size: 60px;
+     }
+
+     .Background-Image{
+        height: 100%;
+        width: 100%;
+        background-image: url("Contact.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 50px 40px;
+        margin-bottom: 100px;
+    }
+    .Background-Image h1{
+        color: white;
+        font-size: 75px;
+        
+    }
+     
+}
+
+@media screen and (max-width: 800px) {
+    .carousel .carousel-inner .carousel-item img {
+        height: 520px;
+    }
+
+    .text-middle {
+
+        padding: 2% 5%;
+        border-radius: 20px;
+        display: block;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .text-middle .left-side {
+        margin-top: 20px;
+        margin-left: -300px;
+        margin: 54px 20px 20px 20px;
+        width: 100%;
+    }
+
+    .text-middle .right-side {
+        width: 100%;
+
+    }
+
+    .Team-member {
+        height: 50%;
+    }
+
+    .courses .courses-name {
+        display: block;
+        width: 100%;
+        justify-content: space-between;
+        /* margin: 51px 0px; */
+        padding: 2% 10%;
+
+    }
+
+    .courses .courses-name .name {
+        padding: 10px;
+        height: 548px;
+        width: 100%;
+        margin-bottom: 5%;
+        background-color: white;
+    }
+
+
+
+    .Company-Colab img {
+
+        width: 25%;
+        height: auto;
+
+    }
+    .Team-member{
+
+        padding: 50px 130px;
+    }
+
+    .Team-member .numbers h1{
+        font-size: 60px;
+     }
+
+     .Background-Image{
+        height: 80%;
+        width: 100%;
+        background-image: url("../Images/Contact.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 50px 40px;
+        margin-bottom: 100px;
+    }
+    .Background-Image h1{
+        color: white;
+        font-size: 60px;
+        
+    }
+   
+
+}
+
+@media screen and (max-width: 600px) {
+    .carousel .carousel-inner .carousel-item img {
+        height: 375px;
+    }
+
+    .Team-member {
+        height: 40%;
+    }
+
+    .Footer {
+        margin-top: 100px;
+        padding: 2% 5%;
+        width: 100%;
+        height: fit-content;
+        background-color: black;
+        color: rgb(128, 124, 124);
+        display: block;
+    }
+
+    .footer-links {
+        display: flex;
+       width:  100%;
+    }
+
+    .Footer-side-1 {
+        width: 100%;
+        margin-left: -2%;
+
+
+    }
+
+    .Team-member{
+
+        padding: 2% 16%;
+    }
+
+    .Team-member .numbers h1{
+        font-size: 40px;
+     }
+    .Team-member .numbers h6{
+        font-size: 16px;
+        margin-top: -50%;
+     }
+
+}
+
+@media screen and (max-width: 500px) {
+    .carousel .carousel-inner .carousel-item img {
+        height: 300px;
+    }
+
+    .Team-member {
+        height: 40%;
+    }
+
+    .Footer {
+        margin-top: 100px;
+        padding: 2% 5%;
+        width: 100%;
+        height: fit-content;
+        background-color: black;
+        color: rgb(128, 124, 124);
+        display: block;
+    }
+
+    .footer-links {
+        display: flex;
+       width:  100%;
+    }
+
+    .Footer-side-1 {
+        width: 100%;
+        margin-left: -2%;
+
+
+    }
+
+    .Team-member{
+
+        padding: 2% 16%;
+    }
+
+    .Team-member .numbers h1{
+        font-size: 33px;
+     }
+    .Team-member .numbers h6{
+        font-size: 12px;
+        margin-top: -50%;
+     }
+
+}
